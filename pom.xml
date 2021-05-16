@@ -489,7 +489,7 @@
             </execution>
           </executions>
         </plugin>
-        <plugin>
+        <!--<plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>clirr-maven-plugin</artifactId>
           <version>2.8</version>
@@ -505,7 +505,7 @@
           <configuration>
             <ignoredDifferencesFile>${project.parent.basedir}/src/clirr/ignored-differences.xml</ignoredDifferencesFile>
           </configuration>
-        </plugin>
+        </plugin>-->
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
